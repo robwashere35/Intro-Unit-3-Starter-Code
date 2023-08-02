@@ -1,0 +1,191 @@
+/* Feel free to change any of the styling below!*/
+body {
+    text-align: center;
+  background-color: beige;
+}
+
+img {
+    width: 380px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 800;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+button {
+    height: 60x;
+  width: 100px;
+  background-color: lightgreen;
+  margin: 15px;
+  padding: 10px;
+}
+
+
+h1 {
+    font-size: 30px;
+    color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+.story-opening{
+   display:none;
+}
+
+.username-screen{
+  display:block;
+}
+
+.buttons{
+   display:none;
+}
+
+
+
+.option-one-screen{
+   display:none;
+}
+
+
+
+.option-two-screen{
+   display:none;
+}
+
+.option-three-screen{
+  display:none;
+}
+
+.option-four-screen{
+  display:none;
+}
+
+.option-five-screen{
+  display:none;
+}
+
+.option-seven-screen{
+  display:none;
+}
+
+.option-eight-screen{
+  display:none;
+}
+
+.option-six-screen{
+  display:none;
+}
+
+.option-nine-screen{
+  display:none;
+}
+
+.option-ten-screen-one{
+  display:none;
+}
+
+.option-ten-screen-two{
+  display:none;
+}
+
+.option-eleven-screen{
+  display:none;
+}
+
+.option-twelve-screen{
+  display:none;
+}
+
+.final-ending{
+  display:none;
+}
+
+.end-one{
+  display:none;
+}
+.option-one-end{
+   display:none;
+}
+
+.option-two-end{
+   display:none;
+}
+
+.redo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit {
+ display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.start-over{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ending {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.restart {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.retry {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ending-two {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ending-three {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+    display:flex;
+  justify-content: center;
+}
+.option-four {
+   display:flex;
+  justify-content: center;
+}
